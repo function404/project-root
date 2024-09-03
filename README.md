@@ -35,7 +35,7 @@
 - PHP
 - Html
 - SCSS
-- Xamp
+- Xampp
 
 ###
 
@@ -55,21 +55,25 @@
 
      <a target="_blank">https://www.apachefriends.org/pt_br/download.html</a>
 
-2. **No terminal navegue até a pasta htdocs do Xampp. Por exemplo:**
+2. **Navegue até a pasta htdocs do Xampp no terminal. Por exemplo:**
 
-     `C:\xampp\htdocs`
+          C:\xampp\htdocs
    
-3. **No terminal clone o projeto dentro da pasta htdocs do Xamp:**
+3. **Clone o repositório do projeto na pasta htdocs. No terminal, execute:**
 
-     `git@github.com:function404/project-root.git`
+          git@github.com:function404/project-root.git
 
-4. **No terminal navegue até o diretório do projeto:**
+4. **Acesse o diretório do projeto clonado. No terminal, execute:**
 
-      `cd project-root`
+           cd project-root
 
-6. **No diretório do projeto execute o comando para compilar o SCSS para CSS (certifique que o NodeJS esta instalado no seu Compoutador):**
+5. **Compile o SCSS para CSS. Certifique-se de que o Node.js está instalado no seu computador. No terminal, execute:**
 
-      `npm install -g sass`
+           npm install -g sass
+
+6. **Abra o vscode para modificar o projeto. No terminal, execute:**
+
+           code .
 
 ###
 
@@ -83,12 +87,12 @@
 
 - Siga as instruções abaixo para abrir a vizualização do projeto no navegador:
                                                 
-1. **No windows explorer navegue até a pasta do Xampp e abra o `xampp-control`.**
+1. **No Windows Explorer, navegue até a pasta do Xampp e abra o `xampp-control`.**
 
-2. **No xampp control clique em `start` do `Apache`.**
+2. **No `xampp-control`, clique em `Start` para iniciar o serviço do `Apache`.**
 
-3. **Em seguida clique em `admin` do `Apache` para abrir o `localhost` em seu navegador e abra a pasta `project-root`.**
+3. **Em seguida, clique em `Admin` ao lado do `Apache` para abrir o `localhost` no seu navegador. Acesse a pasta `project-root`.**
 
-4. **Seu projeto esta pronto para ser vizualizado**
+4. **Pronto! O seu projeto está disponível para visualização no navegador.**
 
 ###
