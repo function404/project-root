@@ -1,0 +1,100 @@
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .blue-edit {
+        color: $secondary-color;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+
+        .service-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border: 1px solid $border-color;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px 8px 0 0;
+            }
+
+            h4 {
+                font-size: 24px;
+                margin: 10px 0;
+                color: $primary-color;
+            }
+
+            p {
+                margin: 5px 0;
+                font-size: 16px;
+
+                &:nth-of-type(2) {
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+
+                span {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+.about-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+        color: $primary-color;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        color: $secondary-color;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: $text-color;
+        margin-bottom: 10px;
+
+        &:last-child {
+            font-weight: bold;
+            color: $secondary-color;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    main.services-grid {
+        grid-template-columns: 1fr;
+    }
+}
