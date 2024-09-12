@@ -6,9 +6,9 @@
 
 ###
 
-- Versão: 1.0.0
+- Versão: 1.5.0
 
-- Data da publicação: 03 Set. 2024
+- Data da publicação: 11 Set. 2024
 
 ###
 
